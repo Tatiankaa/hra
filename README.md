@@ -1,0 +1,1 @@
+Zdroj: "Ako zistím, že som klikla na štvorček?", "Ako zobrazím text na Canvase?", "Ako zmením po kliknutí na štvorček jeho farbu?", "Ako zistím, že som stlačila pravé tlačidlo na myši?", ChatGPT 4O, OpenAI, 29.5.2024, https://chatgpt.com/auth/login
