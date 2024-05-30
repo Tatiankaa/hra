@@ -23,7 +23,7 @@ def move_square():
     y = random.randint(0, 400 - square_size)
     p.create_rectangle(x, y, x + square_size, y + square_size, fill="blue", tags="square")
 
-
+# Spustenie pohybu štvorca
 def casovac():
     if hybstvorec:
         move_square()
@@ -33,6 +33,7 @@ def casovac():
 def klik(mys):
     global hybstvorec, x, y
 
+    # Overenie či bolo kliknuté do štvorca
     if x <= mys.x <= x + square_size and y <= mys.y <= y + square_size:
         hybstvorec = False
         p.delete("square")
@@ -41,6 +42,7 @@ def klik(mys):
     else:
         vysledok.config(text="Skús znova")
 
+# Spustenie novej hry
 def novahra(mys):
     global hybstvorec
     p.delete("square")
